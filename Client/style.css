@@ -1,0 +1,237 @@
+body{
+
+    font-weight: bold;
+    background: rgb(118,217,227);
+background: radial-gradient(circle, rgba(118,217,227,1) 12%, rgba(118,217,227,1) 16%, rgba(118,217,227,1) 19%, rgba(143,222,217,1) 33%, rgba(154,214,216,1) 39%, rgba(214,170,207,1) 58%, rgba(196,166,211,1) 63%, rgba(205,138,167,1) 100%);
+    font-family: Garamond, serif;
+    display: flex;
+    flex-direction: column;
+}
+.divZaSveDane
+{
+    display: flex;
+    flex-direction: row;
+}
+.glavniDiv
+{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.divZaPrikazFestivala{
+    display: flex;
+    flex-direction: column;
+}
+.formular{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+  border: 1px solid black;
+  
+}
+@keyframes mymove {
+    50% {padding-bottom: 50px;}
+  }
+
+.divPocetna
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.lblNaslov
+{
+    font-weight: bold;
+    font-family: Garamond, serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+ .divZaFest
+ {
+     
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    
+ }
+ .dugmeIzmeni,.dugmeObrisi{
+    width: 50%;
+ }
+.divFestivali{
+    margin-top:0px;
+    background-color: lightblue;
+    padding: 10px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 17px; 
+        border: 2px ridge #000000;
+    width: 48%;
+}
+ .divZaOpis
+
+{   margin-top:0px;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    font-family: Garamond, serif;
+
+}
+.divSlike
+{  
+ display: flex;
+    width: 60%;
+
+}
+.slike{
+    width: 100%;
+    height: 100%;
+} 
+@media only screen and (max-width: 900px){
+    .divZaFest{
+        display: flex;
+        flex-direction: column;
+    }
+    .divZaSveDane{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .doleForma{
+        display: flex;
+        flex-direction: column;
+    }
+}
+table, tr, th, td{
+    border: 1px  outset black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+table
+{
+    border-collapse: collapse;
+}
+
+.divZaDan{
+    font-family: Garamond, serif;
+    background-color: lightblue;
+padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 17px; 
+    border: 2px ridge #000000;
+    
+    
+}
+.dugmeIzaberi:hover
+{
+    font-family: Garamond, serif;
+background:linear-gradient(333deg, rgba(7,17,66,1) 0%, rgba(22,9,12,1) 100%);;
+  border: none;
+  color: wheat;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  
+}
+
+
+.checkbox
+{
+    margin-left: 80px;
+}
+.danDiv{
+    display: flex;
+    flex-direction: column-reverse;  
+    background: radial-gradient(circle, rgba(177,238,174,1) 0%, rgba(148,187,233,1) 100%);
+    padding: 10px;
+    border-radius: 20px;
+    width: 200px;
+    height: 600px;
+    margin: 20px;
+    align-items: center;
+}
+.tekstDiv{
+    width: 300px;
+    height: 100px;
+}
+.doleForma{
+    display: flex;
+    columns: row;
+    flex-wrap: wrap;
+}
+.grafikaDiv{
+    display: flex;
+    flex-direction: column-reverse;  
+    width: 150px;
+    height: 500px;
+    border: 1px solid black;
+}
+.lblKolicina{
+    font-size: 20px;
+}
+.ljubicastiDiv{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(111, 0, 255);
+   
+}
+.btnRez{
+    width:100%;
+}
+.btnIzvrsiRez,.dugmeIzmeni,.btnPregled,.dugmeObrisi,.btnpretrazi
+{
+background:linear-gradient(333deg, rgba(7,17,66,1) 0%, rgba(22,9,12,1) 100%);;
+  border: none;
+  color: wheat;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  font-family: Garamond, serif;
+}
+.btnRez
+{
+background:linear-gradient(333deg, rgba(7,17,66,1) 0%, rgba(22,9,12,1) 100%);;
+  border: none;
+  color: wheat;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  width: 250px;
+}
+.divZaCenu,.divGrad
+{
+    font-weight: bold;
+}
+.divZaCheckCena
+{
+    display: flex;
+    columns: row;
+}
+.divZaCBox
+{
+    margin-left: auto; 
+margin-right: 0;
+    display: flex;
+    columns: row;
+    text-align: center;
+}
+.kolicina
+{
+    width:50%;
+}

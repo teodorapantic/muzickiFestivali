@@ -1,0 +1,33 @@
+INSERT INTO FESTIVALI VALUES( 1, 'Petrovoradinska tvrdjava', 'Novi Sad', 'Exit', 'Exit je visestrukonagradjivani muzicki festival koji se odrzava jednom godisnje na Petrovoradinskoj tvrdjavi u Novom Sad, pocevsi od 2001.godine. Festival je osnovan 2000. godine u Novom Sadu, Srbija kao studentski pokret, koji se bori za demokratiju i slobodu u Srbiji i na Balkanu. ','2022-07-07 14:00:00.0000000','2022-07-10 00:00:00.0000000');
+INSERT INTO FESTIVALI VALUES( 2, 'Park Jezero', 'Vrnjacka Banja', 'Lovefest', 'Festival „Lovefest“ u Vrnjačkoj Banji, predstavlja muzički događaj, tokom kojih prisutni mogu uživati u različitim muzičkim žanrovima, sa posebnim akcentom na promociji elektronske muzike. Ideja za održavanje ovog festivala nastala je 2006. godine kao odgovor na nedovoljan broj kulturnih dešavanja u centralnoj Srbiji.','2022-08-04 00:00:00.0000000','2022-08-06 00:00:00.0000000');
+
+
+INSERT INTO DANIFESTA VALUES(1,'Idan',1570, '2022-07-07 00:00:00.0000000', 1);
+INSERT INTO DANIFESTA VALUES(2,'IIdan', 2850,'2022-07-08 00:00:00.0000000', 1);
+INSERT INTO DANIFESTA VALUES(3,'Idan', 4000,'2022-08-04 00:00:00.0000000', 2);
+INSERT INTO DANIFESTA VALUES(4,'IIIdan', 2600,'2022-07-09 00:00:00.0000000', 1);
+INSERT INTO DANIFESTA VALUES(5,'IVdan', 1780,'2022-07-10 00:00:00.0000000', 1);
+INSERT INTO DANIFESTA VALUES(6,'Dan2', 2000,'2022-08-05 00:00:00.0000000', 2);
+INSERT INTO DANIFESTA VALUES(7,'Dan3', 1570,'2022-08-06 00:00:00.0000000', 2);
+
+INSERT INTO NASTUPI VALUES(2,'Amelie Lens','22022-08-04 22:00:00.0000000', 2);
+INSERT INTO NASTUPI VALUES(3,'CarlCox','2022-07-07 20:00:00.0000000', 1);
+INSERT INTO NASTUPI VALUES(4,'Boris Brejcha','2022-07-08 23:00:00.0000000', 2);
+INSERT INTO NASTUPI VALUES(5,'Nina Craviz','2022-08-05 04:00:00.0000000', 6);
+INSERT INTO NASTUPI VALUES(6,'Calvin Haris','2022-07-08 19:00:00.0000000', 2);
+INSERT INTO NASTUPI VALUES(7,'Denis Sulta','2022-07-08 23:00:00.0000000', 2);
+INSERT INTO NASTUPI VALUES(8,'David Guetta','2022-07-07 00:00:00.0000000', 1);
+INSERT INTO NASTUPI VALUES(9,'Jax Jones','2022-07-07 12:00:00.0000000', 1);
+INSERT INTO NASTUPI VALUES(10,'Zhu','2022-07-09 12:00:00.0000000', 4);
+INSERT INTO NASTUPI VALUES(11,'Mathame','2022-08-06 00:00:00.0000000', 4);
+INSERT INTO NASTUPI VALUES(12,'Anfisa Letyago','2022-07-09 22:00:00.0000000', 4);
+INSERT INTO NASTUPI VALUES(13,'Anna b2b SamaAbdulhadi','2022-07-10 14:00:00.0000000', 5);
+INSERT INTO NASTUPI VALUES(14,'Solomun','2022-07-10 20:00:00.0000000', 5);
+INSERT INTO NASTUPI VALUES(15,'Chains','2022-07-10 22:00:00.0000000', 5);
+INSERT INTO NASTUPI VALUES(16,'Loco Dice','2022-08-04 20:00:00.0000000', 3);
+INSERT INTO NASTUPI VALUES(17,'Alton MIller','2022-08-04 16:00:00.0000000', 3);
+INSERT INTO NASTUPI VALUES(18,'Jamie Jones','2022-08-05 20:00:00.0000000', 6);
+INSERT INTO NASTUPI VALUES(19,'Joseph Capriati','2022-08-05 23:00:00.0000000', 6);
+INSERT INTO NASTUPI VALUES(20,'Ilario Alicante','2022-08-06 03:00:00.0000000', 7);
+INSERT INTO NASTUPI VALUES(21,'Ilija Djokovic','2022-08-06 18:00:00.0000000', 7);
+INSERT INTO NASTUPI VALUES(22,'William Djoko','2022-08-06 23:00:00.0000000', 7);
